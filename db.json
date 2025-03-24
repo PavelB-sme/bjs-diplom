@@ -6,10 +6,10 @@
       "password": "demo",
       "id": 1,
       "balance": {
-        "RUB": 1000,
+        "RUB": 166,
         "USD": 20,
         "EUR": 20,
-        "NTC": 3000
+        "NTC": 3089.167225279157
       }
     },
     {
@@ -19,10 +19,10 @@
       "id": 2,
       "netocoins": 100,
       "balance": {
-        "RUB": 20,
+        "RUB": 31,
         "USD": 0,
         "EUR": 0,
-        "NTC": 100
+        "NTC": 200
       }
     },
     {
@@ -34,7 +34,7 @@
         "RUB": 20000,
         "USD": 300,
         "EUR": 500,
-        "NTC": 50000
+        "NTC": 50001
       }
     },
     {
@@ -55,17 +55,138 @@
       "password": "demo",
       "id": 5,
       "balance": {
-        "RUB": 60000,
+        "RUB": 60013,
         "USD": 500,
         "EUR": 600,
         "NTC": 90000
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:26:22.414Z",
+      "login": "qer",
+      "password": "rqwe",
+      "id": 6,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:26:38.549Z",
+      "login": "rreqw",
+      "password": "rqqwe",
+      "id": 7,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:32:24.656Z",
+      "login": "qwe",
+      "password": "qwer",
+      "id": 8,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:37:11.146Z",
+      "login": "qwertg",
+      "password": "qwre",
+      "id": 9,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:57:20.753Z",
+      "login": "qwe123",
+      "password": "qwe",
+      "id": 10,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:57:27.997Z",
+      "login": "qwert",
+      "password": "qwe",
+      "id": 11,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:57:34.665Z",
+      "login": "qwerty",
+      "password": "qwe",
+      "id": 12,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T12:57:43.535Z",
+      "login": "qazaq",
+      "password": "qaz",
+      "id": 13,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T15:44:30.988Z",
+      "login": "qweqaz",
+      "password": "qwe",
+      "id": 14,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2025-03-24T18:29:32.865Z",
+      "login": "Pavel",
+      "password": "12345",
+      "id": 15,
+      "balance": {
+        "RUB": 2,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0.08961697704013048
       }
     }
   ],
   "favorites": {
     "1": {
       "2": "Ваня дурачок",
-      "3": "Пират Петр"
+      "3": "Пират Петр",
+      "15": "Pavel"
     },
     "2": {
       "1": "Чувак, который должен 20к неткойнов",

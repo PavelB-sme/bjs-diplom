@@ -11,7 +11,7 @@
 
 Разный вывод информации из формы (в консоль и в alert):
 
-![](./../img/formoutput.gif)
+![]()
 
 В классе `ApiConnector` актуальными на данной странице будут методы:
 1. `login({login, password}, callback)`
