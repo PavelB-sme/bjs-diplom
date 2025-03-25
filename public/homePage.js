@@ -35,7 +35,7 @@ moneyManager.addMoneyCallback = (data) => {
     if(f.success) {
       ProfileWidget.showProfile(f.data);
       moneyManager.setMessage(f.success, `Успешное пополнение баланса`);
-    } else (moneyManager.setMessage(f.success, 'Некорректное значение'))
+    } else (moneyManager.setMessage(f.success, f.error))
   })
 }
 
@@ -44,7 +44,7 @@ moneyManager.conversionMoneyCallback = (data) => {
     if(f.success) {
       ProfileWidget.showProfile(f.data);
       moneyManager.setMessage(f.success, `Успешное конвертирование валюты`)
-    } else (moneyManager.setMessage(f.success, 'Недостаточно средств'))
+    } else (moneyManager.setMessage(f.success, f.error))
   })
 }
 
@@ -52,8 +52,9 @@ moneyManager.sendMoneyCallback = (data) => {
   ApiConnector.transferMoney(data, f => {
     if(f.success) {
       ProfileWidget.showProfile(f.data);
-      moneyManager.setMessage(f.success, `Успешный перевод`)
-    } else (moneyManager.setMessage(f.success, 'Недостаточно средств'))
+      moneyManager.setMessage(f.success, 'Успешный перевод')
+      console.log(f)
+    } else (moneyManager.setMessage(f.success, f.error))
   })
 }
 
@@ -74,7 +75,7 @@ favoritesWidget.addUserCallback = (data) => {
       favoritesWidget.fillTable(f.data);
       moneyManager.updateUsersList(f.data);
       favoritesWidget.setMessage(f.success, 'Пользователь успешно добавлен в избранное')
-    } else (favoritesWidget.setMessage(f.success, 'Ошибка добавления пользователя в избранное'))
+    } else (favoritesWidget.setMessage(f.success, f.error))
   })
 }
 
@@ -85,6 +86,6 @@ favoritesWidget.removeUserCallback = (data) => {
       favoritesWidget.fillTable(f.data);
       moneyManager.updateUsersList(f.data);
       favoritesWidget.setMessage(f.success, 'Пользователь успешно удален')
-    } else (favoritesWidget.setMessage(f.success, 'Ошибка удаления пользователя'))
+    } else (favoritesWidget.setMessage(f.success, f.error))
   })
 }
